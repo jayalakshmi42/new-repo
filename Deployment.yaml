@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-nginx
-        image: jayalakshmi27/pipeline-new
+        image: jayalakshmi27/pipeline-new:latest
         ports:
         - containerPort: 80
 		
