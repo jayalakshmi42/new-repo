@@ -1,4 +1,3 @@
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,4 +17,3 @@ spec:
         image: jayalakshmi27/pipeline-new:latest
         ports:
         - containerPort: 80
-		
