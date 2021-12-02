@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-nginx
-        image: gcr.io/vast-pride-329511/nginx
+        image: jayalakshmi27/pipeline-new
         ports:
         - containerPort: 80
 		
