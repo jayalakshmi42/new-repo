@@ -9,6 +9,11 @@ pipeline {
 	}
 
     stages {
+        stage('scm checkout') {
+	    steps {
+	         checkout scm
+		 }
+	}
         stage('git') {
             steps {
                 git branch: 'main', url: 'https://github.com/jayalakshmi42/new-repo.git'
